@@ -1,0 +1,74 @@
+/*Menu superior*/
+nav{
+    background-color: #2a8a0d;
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: larger;
+    height: 100px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    align-items: center;
+    column-gap: 25px;
+}
+.logo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+}
+
+a:link,
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*corpo da página*/
+
+body{
+    background-color: #caffba;
+    font-family: Verdana;
+}
+
+.bodyPrincip{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.pesquisa{
+    background-color: #74c25b;
+    font-size: larger;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    border-radius: 12px;
+    border-style: none;
+    width: auto;
+    height: 90px;
+}
+
+
+/*rodapé*/
+.footer{
+    display: flex;
+    row-gap: 20px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #2a8a0d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    padding: 20px;
+}
